@@ -15,5 +15,6 @@ For Mac/Linux:
 2. Run with `java -cp .:hamcrest-2.2.jar:junit-4.13.jar org.junit.runner.JUnitCore ImmutableListTest`
 
 For Windows Powershell:
-1. Compile with `javac -cp '.;hamcrest-2.2.jar;junit-4.13.jar' -Xlint:all ImmutableList.java Cons.java Nil.java ImmutableListTest.java`
+1. Compile with 
+``` javac -cp '.;hamcrest-2.2.jar;junit-4.13.jar' -Xlint:all ImmutableList.java Cons.java Nil.java ImmutableListTest.java ```
 2. Run with `java -cp '.;hamcrest-2.2.jar;junit-4.13.jar' org.junit.runner.JUnitCore ImmutableListTest`
