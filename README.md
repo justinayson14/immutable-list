@@ -1,5 +1,5 @@
 # Immutable List in Java
-Comp 333 - Concepts of Programming Languages - Lab 1
+Comp 333 - Concepts of Programming Languages - Lab 1   
 Class-based Inheritance and Virtual Dispatch
 
 ## Description
@@ -8,3 +8,7 @@ Class-based Inheritance and Virtual Dispatch
 >   same method
 >   * Implement an immutable list
 >   * Use recursion to implement basic list operations
+
+## Quick Start
+For Mac/Linux:
+    1. 
