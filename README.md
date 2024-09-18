@@ -8,4 +8,5 @@ Class-based Inheritance and Virtual Dispatch
 >   same method
 >   * Implement an immutable list
 >   * Use recursion to implement basic list operations
+
 > - Professor Kyle Dewey
