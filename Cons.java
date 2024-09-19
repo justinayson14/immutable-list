@@ -33,7 +33,7 @@ public class Cons implements ImmutableList {
         return null;
     }
     public boolean contains(final int value) {
-        return false;
+        return (head == value) || tail.contains(value);
     }
 
 
