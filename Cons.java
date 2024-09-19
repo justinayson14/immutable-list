@@ -24,9 +24,11 @@ public class Cons implements ImmutableList {
 
         //return 1 + tail.length();
     }
+
     public int sum() {
-        return 0;
+        return head + tail.sum();
     } // empty list sum is defined as 0
+
     public ImmutableList append(final ImmutableList other) {
         return null;
     }
