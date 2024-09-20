@@ -1,3 +1,5 @@
+// AYSON, JUSTIN
+// COMP 333 (MON,WED) - LAB 1
 public class Nil implements ImmutableList {
     public Nil() {}
 
@@ -6,12 +8,16 @@ public class Nil implements ImmutableList {
     public int length() {
         return 0;
     }
+
     public int sum() {
         return 0;
     } // empty list sum is defined as 0
+
     public ImmutableList append(final ImmutableList other) {
-        return null;
+
+        return other;
     }
+
     public boolean contains(final int value) {
         return false;
     }

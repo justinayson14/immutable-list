@@ -1,3 +1,5 @@
+// AYSON, JUSTIN
+// COMP 333 (MON,WED) - LAB 1
 public class Cons implements ImmutableList {
     // ---BEGIN INSTANCE VARIABLES---
     public final int head;
@@ -30,8 +32,9 @@ public class Cons implements ImmutableList {
     } // empty list sum is defined as 0
 
     public ImmutableList append(final ImmutableList other) {
-        return null;
+        return new Cons(head, tail.append(other));
     }
+
     public boolean contains(final int value) {
         return (head == value) || tail.contains(value);
     }
